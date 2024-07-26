@@ -1,0 +1,126 @@
+#map {
+  height: 800px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  left: 170px;
+  margin-top: -70px;
+
+}
+
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #36454F;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+body {
+  background-color: #36454F;
+}
+
+.header-colour {
+  color: white;
+  margin-top: -50px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.data-table {
+  
+  display:inline; 
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+.route-filter-select {
+  position: relative;
+   top: 1px; 
+   right: 700px; 
+   z-index: 1000;
+
+  }
+
+footer {
+  text-align: center;
+  margin-top: 70px;
+  background-color: #0F5132;
+  padding: 10px 0;
+  width: 20%;
+  align-items: center;
+  border-radius: 15px;
+  color: white;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin: 5px 0;
+}
+
+
+.leaflet-routing-container {
+  display: none;
+}
+
+.route-filter-select {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2px;
+  top: 1px;
+  left: 500px;
+  z-index: 1000; 
+}
+
+.big-select {
+  width: 200px;
+  height: 70px;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 5px;
+  background-color: #0F5132;
+}
+
+.route-info {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+  text-overflow: ellipsis;
+  position: absolute;
+  top: 0px;
+  left:1055px; 
+  width: auto;
+  height: auto;
+  background-color: white;
+  padding: 5px;
+  z-index: 1000;
+}
+
+.map-display {
+display: flex;
+}
+
+.main-component-sizing {
+  width: 2000px;
+  height: auto;
+  align-items: center;
+}
+
+.map-body{
+  background-color: #36454F;
+  width: 2000px;
+  align-items: center;
+  
+}
+
+#map-title {
+  margin-right: 150px;
+}
